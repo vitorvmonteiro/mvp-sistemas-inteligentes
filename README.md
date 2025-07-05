@@ -2,7 +2,7 @@
 
 Descrição: MVP (Minimum Viable Product) de uma aplicação full stack para previsão de churn de clientes. A aplicação utiliza um modelo de Machine Learning treinado para classificar se um cliente tem alta ou baixa probabilidade de cancelar seu serviço.
 
-## Funcionalidades
+# Funcionalidades
 
   * **API RESTful:** Backend com FastAPI para servir o modelo de previsão.
   * **Interface Web Interativa:** Frontend amigável construído com Streamlit para facilitar a entrada de dados.
@@ -10,7 +10,7 @@ Descrição: MVP (Minimum Viable Product) de uma aplicação full stack para pre
   * **Histórico de previsões:** Exibe as últimas previsões realizadas para fácil consulta.
   * **Testes automatizados:** Garante a qualidade e o desempenho do modelo com PyTest.
 
-## Estrutura do projeto
+# Estrutura do projeto
 
 ```
 projeto_churn/
@@ -29,16 +29,16 @@ projeto_churn/
 └── requirements.txt                     # Dependências do projeto
 ```
 
-## 🚀 Como executar o projeto localmente
+# Como executar o projeto localmente
 
 Siga os passos abaixo para configurar e executar a aplicação em sua máquina.
 
-### Pré-requisitos
+# Pré-requisitos
 
   * Python 3.9+
   * Git
 
-### 1\. Clonar o Repositório
+# 1\. Clonar o Repositório
 
 1.1 Abra seu terminal e clone o repositório do GitHub:
 
@@ -51,7 +51,7 @@ git clone https://github.com/vitorvmonteiro/mvp-sistemas-inteligentes.git
 cd mvp-sistemas-inteligentes
 ```
 
-### 2\. Criar e ativar um ambiente virtual
+# 2\. Criar e ativar um ambiente virtual
 
 2.1 - Criação do ambiente virtual
 
@@ -70,7 +70,7 @@ Linux:
 source .venv/bin/activate
 ```
 
-### 3\. Instalar as dependências
+# 3\. Instalar as dependências
 
 Com o ambiente virtual ativado, instale todas as bibliotecas necessárias listadas no arquivo `requirements.txt`.
 
@@ -78,7 +78,7 @@ Com o ambiente virtual ativado, instale todas as bibliotecas necessárias listad
 pip install -r requirements.txt
 ```
 
-### 4\. Executar o Backend
+# 4\. Executar o Backend
 
 Navegue até a pasta do backend e inicie a API com o Uvicorn.
 
@@ -116,7 +116,7 @@ A API estará rodando em `http://127.0.0.1:8000`. Você pode acessar a documenta
 
 A interface web estará acessível no seu navegador, geralmente em `http://localhost:8501`.
 
-### 6\. Executar os testes
+# 6\. Executar os testes
 
 Para verificar a performance do modelo, você pode rodar os testes automatizados com PyTest. No terminal, a partir da pasta `backend`, execute:
 
@@ -124,7 +124,7 @@ Para verificar a performance do modelo, você pode rodar os testes automatizados
 pytest
 ```
 
-## Como usar a aplicação
+# Como usar a aplicação
 
 Com o backend e o frontend rodando, acesse a URL do Streamlit no seu navegador.
 
